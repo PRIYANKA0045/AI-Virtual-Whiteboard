@@ -1,0 +1,8 @@
+opencv-python>=4.8.0
+mediapipe>=0.10.13
+numpy>=1.26.0
+easyocr>=1.7.1
+sympy>=1.12
+torch>=2.2.0
+torchvision>=0.17.0
+customtkinter>=5.2.0
