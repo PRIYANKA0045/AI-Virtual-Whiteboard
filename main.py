@@ -8,8 +8,7 @@ from hand_tracker import HandTracker
 from canvas import Canvas
 from toolbar import Toolbar
 from ai.math_solver import MathAI 
-from ai.sketcher  import SketchAI  
-from ai.shape_detection import ShapeAI
+from ai.vision_ai import UltimateAI
 
 def run_canvas(brush_size=25, smoothening=5):
     cam = Camera(width=1280, height=720)
@@ -18,7 +17,7 @@ def run_canvas(brush_size=25, smoothening=5):
     toolbar = Toolbar()
     
     math_ai = MathAI()
-    sketch_ai = SketchAI() 
+    sketch_ai = UltimateAI() 
 
     draw_color = (255, 0, 255) 
     
